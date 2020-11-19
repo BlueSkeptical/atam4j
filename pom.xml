@@ -218,6 +218,11 @@
             <build>
                 <plugins>
                     <plugin>
+	                <groupId>org.pitest</groupId>
+	                <artifactId>pitest-maven</artifactId>
+	                <version>1.5.2</version>
+                    </plugin>
+                    <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
                         <version>${maven-source-plugin.version}</version>
